@@ -1,2 +1,2 @@
 # hrk
-contain hacker rank codes 
+contain the programs with better time complexity
