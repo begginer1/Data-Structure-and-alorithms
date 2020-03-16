@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int i,pos,c=0,j;
+char a[100],b[50],d[50];
+scanf("%s",a);
+scanf("%s",b);
+scanf("%d",&pos);
+int l1=strlen(a);
+int l2=strlen(b);
+for(i=pos;i<=l1;i++)
+{
+d[c]=a[i];
+c++;
+}
+for (j=0;j<=l2;j++){
+a[pos+j]=b[j];
+}
+j--;
+for (i=0;d[i]!='\0';i++){
+a[pos+j+i]=d[i];
+}
+a[pos+j+i]='\0';
+printf("%s",a);
+    return 0;
+}
