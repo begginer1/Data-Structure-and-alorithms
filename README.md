@@ -1,2 +1,2 @@
-# hrk
-contain the programs with better time complexity
+# data structures and algorithms
+contain the programs of many Data structure and algorithms practiced
