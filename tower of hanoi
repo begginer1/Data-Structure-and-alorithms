@@ -1,0 +1,17 @@
+#include<iostream>
+void toh(int n,char beg,char end,char aux)
+{
+    if(n>=1)
+    {
+        toh(n-1,beg,aux,end);
+        std::cout<<n<<"from"<<beg<<"to"<<end<<"\n";
+         toh(n-1,aux,end,beg);
+    }
+}
+int main()
+{
+    int n;
+    std::cin>>n;
+    toh(n,'A','C','B');
+    return 0;
+}
