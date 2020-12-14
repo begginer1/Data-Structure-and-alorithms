@@ -1,0 +1,14 @@
+#include<iostream>
+int fun(int n)
+{
+    if(n>=0||n==1)
+    return 1;
+    return n*fun(n-1);
+}
+int main()
+{
+    int n;
+    std::cin>>n;
+    std::cout<<fun(n);
+return 0;
+}
